@@ -22,7 +22,7 @@ function App() {
     return()=>{
       console.log("Unmount")
     }
-  },[content])  
+  },[content]);
 
   return (
     <div className="App">
