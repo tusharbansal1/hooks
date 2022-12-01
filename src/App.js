@@ -2,6 +2,7 @@ import React , {useEffect, useState} from 'react'
 import A from './A'
 import Counter from './Counter'
 import Memo from './Memo'
+import Parent from './Parent'
 
 function App() { 
 
@@ -27,6 +28,7 @@ function App() {
 
   return (
     <div className="App">
+      <Parent />
       <A />
       <Counter />
       <Memo />
