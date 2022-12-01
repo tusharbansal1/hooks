@@ -1,6 +1,7 @@
 import React , {useEffect, useState} from 'react'
 import A from './A'
 import Counter from './Counter'
+import Memo from './Memo'
 
 function App() { 
 
@@ -28,6 +29,7 @@ function App() {
     <div className="App">
       <A />
       <Counter />
+      <Memo />
       <button onClick={()=>setCount(count + 1)}>Count {count}</button>
       <button onClick={()=>setContent('posts')}>Posts</button>
       <button onClick={()=>setContent('users')}>Users</button>

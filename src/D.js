@@ -3,7 +3,7 @@ import { firstName } from './A'
 
 export default function D() {
   const name=  useContext(firstName)
-  return (
+  return ( 
     <div>
         {name}
     </div>
