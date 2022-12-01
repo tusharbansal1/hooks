@@ -3,7 +3,7 @@ import A from './A'
 import Counter from './Counter'
 import Memo from './Memo'
 import Parent from './Parent'
-
+import Ref from './Ref'
 function App() { 
 
   const [content,setContent]=useState('posts')
@@ -28,6 +28,7 @@ function App() {
 
   return (
     <div className="App">
+      <Ref />
       <Parent />
       <A />
       <Counter />
